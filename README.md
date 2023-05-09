@@ -31,4 +31,7 @@ Since there were three sentence transformers used, each keyphrase will have thre
 
 Before ranking, a threshold score 0.3 was set. If any tweet got a score below 0.3 using any of the sentence transformers, it would be removed from the dataframe. Once this was done, the similarity of each phrase with the dataset was calculated using the average of all three similarity scores calculated in the previous step.
 
-Then the top 10 keyphrases were selected based on this ranking
+Then the top 10 keyphrases were selected based on this ranking.
+
+
+Reference Paper - [Link](https://ieeexplore.ieee.org/document/9641788)
