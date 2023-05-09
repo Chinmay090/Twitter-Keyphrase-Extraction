@@ -2,7 +2,7 @@
 
 This project deals with extracting keyphrases from Twitter data for various NLP tasks such as sentiment analysis. 
 
-A keyphrase is defined as a phrase that is highly relevant to the test or dataset. In this case, this means that the phrases that are most used across all tweets end up saying the most about the dataset. This model extracts the top 10 keyphrases ranked by scores assigned based on the similarity of their sentence embeddings with the dataset as a whole
+A keyphrase is defined as a phrase that is highly relevant to the test or dataset. In this case, this means that the phrases that are most used across all tweets end up saying the most about the dataset. This model extracts the top 10 keyphrases ranked by scores assigned based on the similarity of their sentence embeddings with the dataset as a whole.
 
 This is done using an ensemble of 3 sentence transformers:
 - DistilBERT
